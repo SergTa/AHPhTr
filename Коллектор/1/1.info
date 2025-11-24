@@ -1,0 +1,55 @@
+Model: Коллектор.SLDPRT
+Project name: TAFP
+Config name: По умолчанию
+Project path: E:\__работа\__Монахов\AHPhTr\Коллектор\1\1.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 206087
+    Fluid cells: 102001
+    Solid cells: 104086
+    Fluid cells containing solids: 71342
+
+
+Geometry preparation finished: 11:37:08
+Geometry preparation time: 00:00:40
+Solver CPU time: 02:27:07
+Iterations: 1720
+Travels: 7.20564
+Physical time: 1.084541e-01 s
+Current time step: 6.779174e-05 s
+Last iteration finished: 14:03:04
+CPU time per last iteration: 00:00:05
+CPU time left: 984:26:42
+Iterations per 1 travel: 239
+
+Goals
+    Name                                                                                                           | Unit (SI)   | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    SG Выход воздуха Массовый расход                                                     | mass flow   |           -0.12 |     100.0 |            0.00 |            0.00 | On
+    SG Выход воздуха Температура (текучая среда) Среднерасходный | temperature |          293.63 |     100.0 |            0.04 |            0.00 | On
+    SG Среднее Температура (текучая среда) 3                                         | temperature |          293.21 |      25.6 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: Internal
+    Heat conduction in solids: On
+    Radiation: Off
+    Time dependent: On
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2025 SP4.1
+    Computer name: WIN-V39SPLSOBAK
+    User name: User
+    Operating system: Windows 10 (Version 10.0.19045)
+    Processors: Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+    Number of cores: 8
+    Memory: 3027 MB / 16259 MB
+

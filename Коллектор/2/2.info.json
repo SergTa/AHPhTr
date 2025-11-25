@@ -1,0 +1,68 @@
+{
+    "version": 0,
+    "model_name": "Collector+TAFP.SLDPRT",
+    "project_name": "TAFP",
+    "config_name": "По умолчанию",
+    "project_path": "C:\\Users\\User\\OneDrive\\Desktop\\AHPhTr\\Коллектор\\2\\2.xmlconfig",
+    "finished": false,
+    "mesh": {
+        "cells_total": 85288,
+        "cells_fluid": 34140,
+        "cells_solid": 51148,
+        "cells_fluid_containing_solid": 18838
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "16:40:55+0300",
+        "prepare_geometry_total_time": 6,
+        "cpu_time_solver_total": 284,
+        "iteration": 193,
+        "travel": 1.0747776381494392,
+        "phys_time": 0.04822749088182898,
+        "time_step": 0.0002778481136806023,
+        "last_iteration_finished": "16:45:31+0300",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 5741,
+        "iterations_per_travel": 180
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "PG Температура (твердое тело) 1",
+                "unit": "temperature",
+                "value": 293.1999920877717,
+                "progress": 99.1,
+                "criteria": 2.931999920877717e-06,
+                "delta": 2.957752656129742e-06,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Water",
+            "Air"
+        ],
+        "analysis_type": "internal",
+        "heat_conduction_in_solids": true,
+        "radiation": false,
+        "time_dependent": true,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2025 SP4.1",
+        "computer_name": "WIN-V39SPLSOBAK",
+        "user_name": "User",
+        "os": "Windows 10 (Version 10.0.19045)",
+        "cpu": "Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz",
+        "number_of_cores": 8,
+        "memory_avail": 7063,
+        "memory_total": 16259
+    }
+}

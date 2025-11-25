@@ -1,0 +1,11 @@
+2025-Nov-25 16:06:54
+Computer name:	WIN-V39SPLSOBAK
+Number of cores used in calculation:	8
+Configuration name:	По умолчанию
+Project name:	TAFP
+
+Warnings on last iteration: 
+1. Неразрешенное граничное условие :
+	Имя условия : Статическое давление 5
+2. Неразрешенное граничное условие :
+	Имя условия : Массовый расход на входе 2

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>TAFP</name>
+	<uuid>ff0436bd-7c87-43dc-a77f-a831512ea49a</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>2</vwr_res_files_dir>
+	<geom_db_uuid>c0ca4a76-67b8-48a4-b579-7f61718631b0</geom_db_uuid>
+	<gdb_light_uuid>62878bee-aa9d-4f7e-8d63-be2c3b30620c</gdb_light_uuid>
+	<model_geom_uuid>3a3d2ce6-8ae7-4223-b98b-dd83c680d14f</model_geom_uuid>
+	<template_id/>
+</project>

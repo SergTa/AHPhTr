@@ -1,0 +1,53 @@
+Model: Collector+TAFP.SLDPRT
+Project name: TAFP
+Config name: По умолчанию
+Project path: C:\Users\User\OneDrive\Desktop\AHPhTr\Коллектор\2\2.xmlconfig
+Status: Calculating
+
+Number of cells:
+    Total cells: 85288
+    Fluid cells: 34140
+    Solid cells: 51148
+    Fluid cells containing solids: 18838
+
+
+Geometry preparation finished: 16:40:55
+Geometry preparation time: 00:00:06
+Solver CPU time: 00:04:44
+Iterations: 193
+Travels: 1.07478
+Physical time: 4.822749e-02 s
+Current time step: 2.778481e-04 s
+Last iteration finished: 16:45:31
+CPU time per last iteration: 00:00:01
+CPU time left: 01:35:41
+Iterations per 1 travel: 180
+
+Goals
+    Name                                                  | Unit (SI)   | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    PG Температура (твердое тело) 1 | temperature |          293.20 |      99.1 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: Water, Air
+    Analysis type: Internal
+    Heat conduction in solids: On
+    Radiation: Off
+    Time dependent: On
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2025 SP4.1
+    Computer name: WIN-V39SPLSOBAK
+    User name: User
+    Operating system: Windows 10 (Version 10.0.19045)
+    Processors: Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+    Number of cores: 8
+    Memory: 7063 MB / 16259 MB
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>Прототип</name>
+	<uuid>5586e4c8-7b67-4b5d-aac1-5782a20dc24d</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>3</vwr_res_files_dir>
+	<geom_db_uuid>7d807179-9900-4dee-856e-5d781a6b22ba</geom_db_uuid>
+	<gdb_light_uuid>06a0e12c-eaca-4f83-b78e-e0048075ad3c</gdb_light_uuid>
+	<model_geom_uuid>3191f490-fe70-40b2-9788-54f067eece36</model_geom_uuid>
+	<template_id/>
+</project>

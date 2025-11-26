@@ -1,0 +1,55 @@
+Model: Прототип.SLDPRT
+Project name: Прототип
+Config name: По умолчанию
+Project path: C:\Users\User\OneDrive\Desktop\AHPhTr\Коллектор\3\3.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 103264
+    Fluid cells: 63162
+    Solid cells: 40102
+    Fluid cells containing solids: 30528
+
+
+Geometry preparation finished: 10:29:46
+Geometry preparation time: 00:00:07
+Solver CPU time: 00:05:26
+Iterations: 192
+Travels: 2.41057
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 10:35:01
+CPU time per last iteration: 00:00:01
+CPU time left: 00:00:45
+Iterations per 1 travel: 80
+
+Goals
+    Name                                                                                                           | Unit (SI)   | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    SG Выход воды Массовый расход                                                           | mass flow   |           -9.97 |     100.0 |            0.20 |            0.17 | On
+    SG Выход воды Температура (текучая среда) Среднерасходный       | temperature |          334.17 |     100.0 |           47.46 |           28.80 | On
+    SG Выход воздуха Температура (текучая среда) Среднерасходный | temperature |          350.76 |     100.0 |            5.05 |            1.78 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: Internal
+    Heat conduction in solids: On
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2025 SP4.1
+    Computer name: WIN-V39SPLSOBAK
+    User name: User
+    Operating system: Windows 10 (Version 10.0.19045)
+    Processors: Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz
+    Number of cores: 8
+    Memory: 6665 MB / 16259 MB
+

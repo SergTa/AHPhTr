@@ -3,8 +3,8 @@
     "model_name": "Collector+TAFP.SLDPRT",
     "project_name": "TAFP",
     "config_name": "По умолчанию",
-    "project_path": "C:\\Users\\User\\OneDrive\\Desktop\\AHPhTr\\Коллектор\\2\\2.xmlconfig",
-    "finished": false,
+    "project_path": "C:\\Users\\79067\\Desktop\\AHPhTr\\Коллектор\\2\\2.xmlconfig",
+    "finished": true,
     "mesh": {
         "cells_total": 85288,
         "cells_fluid": 34140,
@@ -12,40 +12,83 @@
         "cells_fluid_containing_solid": 18838
     },
     "telemetry": {
-        "prepare_geometry_finished": "16:40:55+0300",
-        "prepare_geometry_total_time": 6,
-        "cpu_time_solver_total": 284,
-        "iteration": 193,
-        "travel": 1.0747776381494392,
-        "phys_time": 0.04822749088182898,
-        "time_step": 0.0002778481136806023,
-        "last_iteration_finished": "16:45:31+0300",
-        "cpu_time_per_last_iter": 1,
-        "cpu_time_left": 5741,
-        "iterations_per_travel": 180
+        "prepare_geometry_finished": "00:27:12+0300",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 2801,
+        "iteration": 5715,
+        "travel": 87.8972420604927,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "01:13:42+0300",
+        "cpu_time_per_last_iter": 0,
+        "cpu_time_left": -1,
+        "iterations_per_travel": 65
     },
     "goals": [
         {
             "goal": {
+                "name": "GG Тепловой поток 1",
+                "unit": "heat flow",
+                "value": 6.74659180222276e-09,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 8.574815727621138e-10,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
                 "name": "PG Температура (твердое тело) 1",
                 "unit": "temperature",
-                "value": 293.1999920877717,
-                "progress": 99.1,
-                "criteria": 2.931999920877717e-06,
-                "delta": 2.957752656129742e-06,
+                "value": 353.20000042019274,
+                "progress": 100.0,
+                "criteria": 1.703294717215221,
+                "delta": 7.764811016386375e-11,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Вход воздуха Скорость Ср",
+                "unit": "speed and velocity",
+                "value": 0.0,
+                "progress": 1000.0,
+                "criteria": 0.0,
+                "delta": 0.0,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Выход тепла Температура (текучая среда) Среднерасходный",
+                "unit": "temperature",
+                "value": 353.2000004742645,
+                "progress": 0.0,
+                "criteria": 0.0,
+                "delta": 5.582023732131347e-11,
+                "use_in_convergence": false
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Выход воздуха 6 Температура (текучая среда) Среднерасходный",
+                "unit": "temperature",
+                "value": 0.0,
+                "progress": 1000.0,
+                "criteria": 0.0,
+                "delta": 0.0,
                 "use_in_convergence": true
             }
         }
     ],
     "settings": {
         "default_fluids": [
-            "Water",
-            "Air"
+            "Water"
         ],
         "analysis_type": "internal",
         "heat_conduction_in_solids": true,
         "radiation": false,
-        "time_dependent": true,
+        "time_dependent": false,
         "gravity": false,
         "flow_type": "laminar and turbulent",
         "cavitation": false,
@@ -57,12 +100,12 @@
     "system_info": {
         "product_name": "Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
         "cad_version": "SOLIDWORKS 2025 SP4.1",
-        "computer_name": "WIN-V39SPLSOBAK",
-        "user_name": "User",
-        "os": "Windows 10 (Version 10.0.19045)",
-        "cpu": "Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz",
-        "number_of_cores": 8,
-        "memory_avail": 7063,
-        "memory_total": 16259
+        "computer_name": "MATLAB",
+        "user_name": "79067",
+        "os": "Windows 11 (or higher) (Version 10.0.26200)",
+        "cpu": "AMD Ryzen 7 5800H with Radeon Graphics         ",
+        "number_of_cores": 16,
+        "memory_avail": 4801,
+        "memory_total": 15713
     }
 }

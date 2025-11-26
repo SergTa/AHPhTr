@@ -1,0 +1,89 @@
+{
+    "version": 0,
+    "model_name": "Прототип.SLDPRT",
+    "project_name": "Прототип",
+    "config_name": "По умолчанию",
+    "project_path": "C:\\Users\\User\\OneDrive\\Desktop\\AHPhTr\\Коллектор\\3\\3.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 103264,
+        "cells_fluid": 63162,
+        "cells_solid": 40102,
+        "cells_fluid_containing_solid": 30528
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "10:29:46+0300",
+        "prepare_geometry_total_time": 7,
+        "cpu_time_solver_total": 326,
+        "iteration": 192,
+        "travel": 2.410567388387383,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "10:35:01+0300",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 45,
+        "iterations_per_travel": 80
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "SG Выход воды Массовый расход",
+                "unit": "mass flow",
+                "value": -9.969168104510443,
+                "progress": 100.0,
+                "criteria": 0.20396300058349767,
+                "delta": 0.16904956112336045,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Выход воды Температура (текучая среда) Среднерасходный",
+                "unit": "temperature",
+                "value": 334.17167300988586,
+                "progress": 100.0,
+                "criteria": 47.46060442287511,
+                "delta": 28.795411284103977,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "SG Выход воздуха Температура (текучая среда) Среднерасходный",
+                "unit": "temperature",
+                "value": 350.7614480997172,
+                "progress": 100.0,
+                "criteria": 5.0471193054451176,
+                "delta": 1.784278843340644,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "internal",
+        "heat_conduction_in_solids": true,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2025 SP4.1",
+        "computer_name": "WIN-V39SPLSOBAK",
+        "user_name": "User",
+        "os": "Windows 10 (Version 10.0.19045)",
+        "cpu": "Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz",
+        "number_of_cores": 8,
+        "memory_avail": 6665,
+        "memory_total": 16259
+    }
+}
